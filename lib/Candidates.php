@@ -164,7 +164,7 @@ class Candidates
                 NOW(),
                 123,
                 456,
-                No,
+                Yes,
                 Male
             )",
             $this->_db->makeQueryString($firstName),
