@@ -100,7 +100,6 @@ class Candidates
     {
         $sql = sprintf(
             "INSERT INTO candidate (
-                first_name,
                 middle_name,
                 last_name,
                 email1,
@@ -134,7 +133,6 @@ class Candidates
                 eeo_gender
             )
             VALUES (
-                %s,
                 %s,
                 %s,
                 %s,
