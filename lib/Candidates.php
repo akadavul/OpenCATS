@@ -165,7 +165,7 @@ class Candidates
                 123,
                 456,
                 Yes,
-                Male
+                Female
             )",
             $this->_db->makeQueryString($firstName),
             $this->_db->makeQueryString($middleName),
